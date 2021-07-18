@@ -1,0 +1,51 @@
+@use '../custom' as *;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+section {
+  font-family: "Open Sans", sans-serif;
+  font-family: "PT Serif", serif;
+  background: $secondary;
+  $breakpoint-tablet-1: 768px;
+  $breakpoint-tablet: 1200px;
+  .info {
+    .hey{
+      font-family: 'Alfa Slab One', cursive;
+    }
+    h1 {
+      font-weight: 200;
+      color: $primary;
+      margin-top: 30%;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+    }
+
+    @media (max-width: $breakpoint-tablet) {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+
+    @media (max-width: $breakpoint-tablet-1) {
+      h1 {
+        margin-left: 10%;
+      }
+    }
+    @media (width: $breakpoint-tablet-1) {
+      h1 {
+        margin-left: 30%;
+      }
+    }
+    /* Cursor */
+    .txt-type > .txt {
+      border-right: 0.2rem solid #777;
+    }
+  }
+  @media (width: $breakpoint-tablet-1) {
+    .imggirl {
+      margin-left: 47%;
+    }
+  }
+}

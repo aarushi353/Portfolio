@@ -1,0 +1,14 @@
+@use 'custom';
+//Importing the components
+@use 'components/animations';
+@use 'components/mixins';
+@use 'components/typography';
+
+//Importing sections
+
+@use 'sections/about';
+@use 'sections/intro';
+@use 'sections/mywork';
+@use 'sections/navbar';
+@use 'sections/connect';
+

@@ -1,0 +1,24 @@
+@use '../custom' as *;
+.menu {
+  background: $secondary;
+  a {
+    img {
+      width: 250px;
+    }
+    $breakpoint-tablet: 346px;
+    @media (max-width: $breakpoint-tablet) {
+      img {
+        width: 150px;
+      }
+    }
+  }
+  li {
+    padding: 0 0.7rem;
+
+    a {
+      color: $primary !important;
+      text-transform: capitalize;
+      font-weight: 600;
+    }
+  }
+}

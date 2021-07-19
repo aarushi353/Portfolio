@@ -11038,44 +11038,40 @@ footer {
   }
 }
 .skill {
-  margin: 0;
   background: #eee;
-  font-family: "Ubuntu", "微軟正黑體", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   letter-spacing: 0.65px;
   font-size: 15px;
   color: #555;
   cursor: default;
+  margin-top: 20px;
 }
-
-a {
+.skill .resume {
+  width: 70%;
+  background: #fbfbfb;
+  margin: 20px auto;
+  border: 1px solid #273d7d;
+  box-shadow: 0 0 20px -3px #273d7d;
+  position: relative;
+  display: flex;
+}
+.skill .resume a {
   text-decoration: none;
   color: #555;
   display: block;
   transition-duration: 0.3s;
 }
-
-ul {
+.skill .resume ul {
   list-style-type: none;
   padding: 0;
 }
-
-h3 {
+.skill .resume h3 {
   color: #3d405b;
   margin: 10px 0;
   text-transform: uppercase;
   font-size: 18px;
 }
-
-.resume {
-  width: 70%;
-  background: #fbfbfb;
-  margin: 20px auto;
-  border: 1px solid #bbb;
-  box-shadow: 0 0 20px -3px #bbb;
-  position: relative;
-  display: flex;
-}
-.resume::before {
+.skill .resume::before {
   content: "";
   width: 100%;
   height: 6px;
@@ -11084,32 +11080,32 @@ h3 {
   bottom: 0;
   left: 0;
 }
-.resume::after {
+.skill .resume::after {
   content: "";
   display: block;
   clear: both;
 }
-.resume .base {
+.skill .resume .base {
   box-sizing: border-box;
   float: left;
   width: 225px;
   padding: 30px 15px;
   background: rgba(238, 238, 238, 0.6);
 }
-.resume .base > div {
+.skill .resume .base > div {
   padding-bottom: 10px;
 }
-.resume .base > div:last-of-type {
+.skill .resume .base > div:last-of-type {
   padding-bottom: 0;
 }
-.resume .base .profile {
+.skill .resume .base .profile {
   background: #273d7d;
   padding: 30px 15px 5px 15px;
   margin: -30px -15px 45px -15px;
   position: relative;
   z-index: 2;
 }
-.resume .base .profile::after {
+.skill .resume .base .profile::after {
   content: "";
   position: absolute;
   background: #273d7d;
@@ -11120,7 +11116,7 @@ h3 {
   transform: skewY(-5deg);
   z-index: -1;
 }
-.resume .base .profile::after i {
+.skill .resume .base .profile::after i {
   display: inline-block;
   font-size: 30px;
   background: #273d7d;
@@ -11132,41 +11128,41 @@ h3 {
   margin: 0 10px 10px 10px;
   transition-duration: 0.3s;
 }
-.resume .base .profile::after i::before {
+.skill .resume .base .profile::after i::before {
   transition-duration: 0.3s;
 }
-.resume .base .profile::after i.fa::before {
+.skill .resume .base .profile::after i.fa::before {
   display: block;
 }
-.resume .func {
+.skill .resume .func {
   box-sizing: border-box;
   float: left;
   width: 645px;
   padding: 30px 25px;
 }
-.resume .func > div {
+.skill .resume .func > div {
   padding-bottom: 10px;
 }
-.resume .func > div:last-of-type {
+.skill .resume .func > div:last-of-type {
   padding-bottom: 0;
 }
-.resume .func:hover > div {
+.skill .resume .func:hover > div {
   transition-duration: 0.3s;
 }
-.resume .func:hover > div:hover h3 {
+.skill .resume .func:hover > div:hover h3 {
   letter-spacing: 1.6px;
 }
-.resume .func:hover > div:hover h3 i {
+.skill .resume .func:hover > div:hover h3 i {
   transform: scale(1.2);
 }
-.resume .func:hover > div:not(:hover) {
+.skill .resume .func:hover > div:not(:hover) {
   opacity: 0.5;
 }
-.resume .func h3 {
+.skill .resume .func h3 {
   transition-duration: 0.3s;
   margin-top: 0;
 }
-.resume .func h3 i {
+.skill .resume .func h3 i {
   color: #fcfcfc;
   background: #273d7d;
   width: 42px;
@@ -11179,36 +11175,36 @@ h3 {
   margin-right: 8px;
   transition-duration: 0.3s;
 }
-.resume .func .work {
+.skill .resume .func .work {
   float: left;
 }
-.resume .func .work small {
+.skill .resume .func .work small {
   display: block;
   opacity: 0.7;
 }
-.resume .func .work ul li {
+.skill .resume .func .work ul li {
   position: relative;
   margin-left: 15px;
   padding-left: 25px;
   padding-bottom: 15px;
 }
-.resume .func .work ul li:hover::before {
+.skill .resume .func .work ul li:hover::before {
   animation: circle 1.2s infinite;
 }
-.resume .func .work ul li:hover span {
+.skill .resume .func .work ul li:hover span {
   color: #d63384;
 }
-.resume .func .work ul li:first-of-type::before {
+.skill .resume .func .work ul li:first-of-type::before {
   width: 10px;
   height: 10px;
 }
-.resume .func .work ul li:last-of-type {
+.skill .resume .func .work ul li:last-of-type {
   padding-bottom: 3px;
 }
-.resume .func .work ul li:last-of-type::after {
+.skill .resume .func .work ul li:last-of-type::after {
   border-radius: 1.5px;
 }
-.resume .func .work ul li::before {
+.skill .resume .func .work ul li::before {
   content: "";
   display: block;
   position: absolute;
@@ -11220,7 +11216,7 @@ h3 {
   left: 0;
   z-index: 1;
 }
-.resume .func .work ul li::after {
+.skill .resume .func .work ul li::after {
   content: "";
   display: block;
   position: absolute;
@@ -11230,41 +11226,41 @@ h3 {
   left: 5px;
   top: 0;
 }
-.resume .func .work ul li span {
+.skill .resume .func .work ul li span {
   transition-duration: 0.3s;
 }
-.resume .func .edu {
+.skill .resume .func .edu {
   float: left;
   width: 70%;
 }
-.resume .func .edu small {
+.skill .resume .func .edu small {
   display: block;
   opacity: 0.7;
 }
-.resume .func .edu ul li {
+.skill .resume .func .edu ul li {
   position: relative;
   margin-left: 15px;
   padding-left: 25px;
   padding-bottom: 15px;
 }
-.resume .func .edu ul li:hover::before {
+.skill .resume .func .edu ul li:hover::before {
   animation: circle 1.2s infinite;
 }
-.resume .func .edu ul li:hover span {
+.skill .resume .func .edu ul li:hover span {
   color: #d63384;
 }
-.resume .func .edu ul li:first-of-type::before {
+.skill .resume .func .edu ul li:first-of-type::before {
   width: 10px;
   height: 10px;
   left: -2px;
 }
-.resume .func .edu ul li:last-of-type {
+.skill .resume .func .edu ul li:last-of-type {
   padding-bottom: 3px;
 }
-.resume .func .edu ul li:last-of-type::after {
+.skill .resume .func .edu ul li:last-of-type::after {
   border-radius: 1.5px;
 }
-.resume .func .edu ul li::before {
+.skill .resume .func .edu ul li::before {
   content: "";
   display: block;
   position: absolute;
@@ -11276,7 +11272,7 @@ h3 {
   left: 0;
   z-index: 1;
 }
-.resume .func .edu ul li::after {
+.skill .resume .func .edu ul li::after {
   content: "";
   display: block;
   position: absolute;
@@ -11286,40 +11282,40 @@ h3 {
   left: 5px;
   top: 0;
 }
-.resume .func .edu ul li span {
+.skill .resume .func .edu ul li span {
   transition-duration: 0.3s;
 }
-.resume .func .skills-prog {
+.skill .resume .func .skills-prog {
   clear: both;
 }
-.resume .func .skills-prog ul {
+.skill .resume .func .skills-prog ul {
   margin-left: 15px;
 }
-.resume .func .skills-prog ul li {
+.skill .resume .func .skills-prog ul li {
   margin-bottom: 8px;
   display: flex;
   align-items: center;
   transition-duration: 0.3s;
 }
-.resume .func .skills-prog ul li:hover {
+.skill .resume .func .skills-prog ul li:hover {
   color: #d63384;
 }
-.resume .func .skills-prog ul li:hover .skills-bar .bar {
+.skill .resume .func .skills-prog ul li:hover .skills-bar .bar {
   background: #d63384;
   box-shadow: 0 0 0 1px #d63384;
 }
-.resume .func .skills-prog ul li span {
+.skill .resume .func .skills-prog ul li span {
   display: block;
   width: 120px;
 }
-.resume .func .skills-prog ul li .skills-bar {
+.skill .resume .func .skills-prog ul li .skills-bar {
   background: #cdcdcd;
   height: 2px;
   width: calc(100% - 120px);
   position: relative;
   border-radius: 2px;
 }
-.resume .func .skills-prog ul li .skills-bar .bar {
+.skill .resume .func .skills-prog ul li .skills-bar .bar {
   position: absolute;
   top: -1px;
   height: 4px;
@@ -11327,39 +11323,39 @@ h3 {
   box-shadow: 0 0 0 #273d7d;
   border-radius: 5px;
 }
-.resume .func .skills-soft ul {
+.skill .resume .func .skills-soft ul {
   display: flex;
   justify-content: space-between;
   text-align: center;
 }
-.resume .func .skills-soft ul li {
+.skill .resume .func .skills-soft ul li {
   position: relative;
 }
-.resume .func .skills-soft ul li:hover svg .cbar {
+.skill .resume .func .skills-soft ul li:hover svg .cbar {
   stroke: #d63384;
   stroke-width: 4px;
 }
-.resume .func .skills-soft ul li:hover span {
+.skill .resume .func .skills-soft ul li:hover span {
   transform: scale(1.2);
 }
-.resume .func .skills-soft ul li:hover small {
+.skill .resume .func .skills-soft ul li:hover small {
   transform: scale(1.2);
 }
-.resume .func .skills-soft ul li svg {
+.skill .resume .func .skills-soft ul li svg {
   width: 95%;
   fill: transparent;
   transform: rotate(-90deg);
 }
-.resume .func .skills-soft ul li svg circle {
+.skill .resume .func .skills-soft ul li svg circle {
   stroke-width: 1px;
   stroke: #cdcdcd;
 }
-.resume .func .skills-soft ul li svg .cbar {
+.skill .resume .func .skills-soft ul li svg .cbar {
   stroke-width: 3px;
   stroke: #273d7d;
   stroke-linecap: round;
 }
-.resume .func .skills-soft ul li span {
+.skill .resume .func .skills-soft ul li span {
   position: absolute;
   display: block;
   width: 100%;
@@ -11367,14 +11363,14 @@ h3 {
   transition-duration: 0.3s;
   top: 40%;
 }
-.resume .func .skills-soft ul li small {
+.skill .resume .func .skills-soft ul li small {
   position: absolute;
   display: block;
   width: 100%;
   top: 52%;
   transition-duration: 0.3s;
 }
-.resume .func .interests-items {
+.skill .resume .func .interests-items {
   box-sizing: border-box;
   padding: 15px;
   width: 100%;
@@ -11383,19 +11379,19 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
-.resume .func .interests-items div {
+.skill .resume .func .interests-items div {
   display: inline-block;
   width: 80px;
   height: 80px;
 }
-.resume .func .interests-items div:hover i {
+.skill .resume .func .interests-items div:hover i {
   transform: scale(1.2);
 }
-.resume .func .interests-items div:hover span {
+.skill .resume .func .interests-items div:hover span {
   color: #d63384;
   transition-duration: 0.3s;
 }
-.resume .func .interests-items div i {
+.skill .resume .func .interests-items div i {
   font-size: 45px;
   width: 60px;
   height: 60px;
@@ -11403,17 +11399,17 @@ h3 {
   color: #273d7d;
   transition-duration: 0.3s;
 }
-.resume .func .interests-items div i.guitar {
+.skill .resume .func .interests-items div i.guitar {
   display: block;
   margin: 0 auto;
 }
-.resume .func .interests-items div i.guitar svg {
+.skill .resume .func .interests-items div i.guitar svg {
   width: 50px;
   height: 50px;
   margin-top: 5px;
   fill: #273d7d;
 }
-.resume .func .interests-items div span {
+.skill .resume .func .interests-items div span {
   display: block;
 }
 

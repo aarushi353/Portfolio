@@ -4,7 +4,7 @@
   "description": "Portfolio website built with bootstrap and Sass",
   "main": "index.js",
   "scripts": {
-    "compile:sass":"sass --watch scss:assets/css"
+    "compile:sass": "sass --watch scss:assets/css"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "@fortawesome/fontawesome-free": "^5.15.3",
     "autoprefixer": "^10.2.6",
     "bootstrap": "^5.0.2",
+    "node": "^16.5.0",
     "postcss-cli": "^8.3.1"
   },
   "devDependencies": {

@@ -11438,4 +11438,21 @@ footer {
   display: block;
 }
 
+.projects h1 {
+  font-size: 400%;
+  color: #273d7d;
+  margin-top: 10%;
+}
+.projects img {
+  height: 200px;
+  width: 350px;
+  padding: 20px;
+}
+@media (max-width: 450px) {
+  .projects img {
+    height: 100px;
+    width: 250px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

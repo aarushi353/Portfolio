@@ -413,3 +413,22 @@
 }
 }
 }
+
+.projects{
+  $breakpoint-tablet-5: 450px;
+  h1{
+    font-size: 400%;
+    color: #273d7d;
+    margin-top: 10%;
+  }
+  img{
+    height: 200px;
+    width: 350px;
+    padding: 20px;
+    @media(max-width: 450px){
+    height: 100px;
+    width: 250px;
+    }
+  }
+  
+}

@@ -11446,12 +11446,15 @@ footer {
 .projects img {
   height: 200px;
   width: 350px;
-  padding: 20px;
+  border: 1px solid;
+  box-shadow: 10px 15px #273d7d;
+  margin: 30px;
 }
 @media (max-width: 450px) {
   .projects img {
-    height: 100px;
-    width: 250px;
+    height: 75px;
+    width: 150px;
+    box-shadow: 5px 10px #273d7d;
   }
 }
 

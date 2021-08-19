@@ -15,9 +15,19 @@
   font-size: 15px;
   color: #f1f1f1f1;
   cursor: default;
-  h1 {
+  h3{
     font-family: $font;
-    font-size: 4rem;
+    font-size: 2.5rem;
+    .underline--magical {
+      background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+      background-repeat: no-repeat;
+      background-size: 100% 0.2em;
+      background-position: 0 88%;
+      transition: background-size 0.25s ease-in;
+      &:hover {
+        background-size: 100% 88%;
+      }
+    }
   }
   .resume {
     width: 70%;
@@ -47,7 +57,7 @@
       content: "";
       width: 100%;
       height: 6px;
-      background: #273d7d;
+      background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
       position: absolute;
       bottom: 0;
       left: 0;
@@ -102,7 +112,7 @@
         margin-top: 0;
         i {
           color: #fcfcfc;
-          background: #273d7d;
+          background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
           width: 42px;
           height: 42px;
           font-size: 20px;
@@ -124,11 +134,11 @@
             align-items: center;
             transition-duration: 0.3s;
             &:hover {
-              color: #d63384;
+              color: #FD3A69;
               .skills-bar {
                 .bar {
-                  background: #d63384;
-                  box-shadow: 0 0 0 1px #d63384;
+                  background: #FD3A69;
+                  box-shadow: 0 0 0 1px #FD3A69;
                 }
               }
             }
@@ -146,8 +156,8 @@
                 position: absolute;
                 top: -1px;
                 height: 4px;
-                background: #273d7d;
-                box-shadow: 0 0 0 #273d7d;
+                background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+                box-shadow: 0 0 0 linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
                 border-radius: 5px;
               }
             }
@@ -233,7 +243,7 @@
             width: 60px;
             height: 60px;
             line-height: 60px;
-            color: #273d7d;
+            color: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
             transition-duration: 0.3s;
           }
           i.guitar {
@@ -243,7 +253,7 @@
               width: 50px;
               height: 50px;
               margin-top: 5px;
-              fill: #273d7d;
+              fill: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
             }
           }
           span {

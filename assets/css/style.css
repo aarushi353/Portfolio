@@ -10752,11 +10752,21 @@ section {
 }
 section .connection {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #f1f1f1;
   z-index: -1;
   font-family: "Raleway", sans-serif;
   padding-top: 7rem;
+}
+section .connection .underline--magical {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+section .connection .underline--magical:hover {
+  background-size: 100% 88%;
 }
 section .connect {
   margin: 0;
@@ -10851,9 +10861,19 @@ footer {
   color: #f1f1f1f1;
   cursor: default;
 }
-.skill h1 {
+.skill h3 {
   font-family: "Raleway", sans-serif;
-  font-size: 4rem;
+  font-size: 2.5rem;
+}
+.skill h3 .underline--magical {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+.skill h3 .underline--magical:hover {
+  background-size: 100% 88%;
 }
 .skill .resume {
   width: 70%;
@@ -10884,7 +10904,7 @@ footer {
   content: "";
   width: 100%;
   height: 6px;
-  background: #273d7d;
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -10937,7 +10957,7 @@ footer {
 }
 .skill .resume .func h3 i {
   color: #fcfcfc;
-  background: #273d7d;
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   width: 42px;
   height: 42px;
   font-size: 20px;
@@ -10961,11 +10981,11 @@ footer {
   transition-duration: 0.3s;
 }
 .skill .resume .func .skills-prog ul li:hover {
-  color: #d63384;
+  color: #FD3A69;
 }
 .skill .resume .func .skills-prog ul li:hover .skills-bar .bar {
-  background: #d63384;
-  box-shadow: 0 0 0 1px #d63384;
+  background: #FD3A69;
+  box-shadow: 0 0 0 1px #FD3A69;
 }
 .skill .resume .func .skills-prog ul li span {
   display: block;
@@ -10982,8 +11002,8 @@ footer {
   position: absolute;
   top: -1px;
   height: 4px;
-  background: #273d7d;
-  box-shadow: 0 0 0 #273d7d;
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  box-shadow: 0 0 0 linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   border-radius: 5px;
 }
 .skill .resume .func .skills-soft ul {
@@ -11059,7 +11079,7 @@ footer {
   width: 60px;
   height: 60px;
   line-height: 60px;
-  color: #273d7d;
+  color: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   transition-duration: 0.3s;
 }
 .skill .resume .func .interests-items div i.guitar {
@@ -11070,7 +11090,7 @@ footer {
   width: 50px;
   height: 50px;
   margin-top: 5px;
-  fill: #273d7d;
+  fill: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
 .skill .resume .func .interests-items div span {
   display: block;
@@ -11104,9 +11124,19 @@ a {
   background: #212529;
   margin-top: 10%;
 }
-.main h1 {
+.main h3 {
   font-family: "Raleway", sans-serif;
-  font-size: 4rem;
+  font-size: 2.5rem;
+}
+.main h3 .underline--magical {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+.main h3 .underline--magical:hover {
+  background-size: 100% 88%;
 }
 .main #projects {
   display: flex;
@@ -11130,7 +11160,7 @@ a {
 }
 .main #projects .project-tile:hover {
   transform: scale(1.03);
-  background: linear-gradient(180deg, #aaeeb1 0%, #f5b2db 100%);
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   color: #212529;
   box-shadow: 0 10px 30px -5px rgba(255, 255, 255, 0.2);
 }

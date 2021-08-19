@@ -8,10 +8,21 @@ a {
   background: $secondary;
   margin-top: 10%;
 
-  h1 {
+  h3 {
     font-family: $font;
-    font-size: 4rem;
+    font-size: 2.5rem;
+    .underline--magical {
+      background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+      background-repeat: no-repeat;
+      background-size: 100% 0.2em;
+      background-position: 0 88%;
+      transition: background-size 0.25s ease-in;
+      &:hover {
+        background-size: 100% 88%;
+      }
+    }
   }
+
   #projects {
     display: flex;
     flex-direction: column;
@@ -34,7 +45,7 @@ a {
       width: 60%;
       &:hover {
         transform: scale(1.03);
-        background: linear-gradient(180deg, #aaeeb1 0%, #f5b2db 100%);
+        background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
         color: $secondary;
         box-shadow: 0 10px 30px -5px rgba(255, 255, 255, 0.2);
       }

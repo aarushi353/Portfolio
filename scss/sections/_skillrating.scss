@@ -1,5 +1,4 @@
 @use '../custom' as *;
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 @keyframes circle {
   from {
@@ -16,10 +15,10 @@
   font-size: 15px;
   color: #f1f1f1f1;
   cursor: default;
- h1{
-  font-family: $font;
-  font-size: 4rem;
- }
+  h1 {
+    font-family: $font;
+    font-size: 4rem;
+  }
   .resume {
     width: 70%;
     background: $secondary;

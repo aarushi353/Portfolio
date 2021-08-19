@@ -1,13 +1,12 @@
 // Variables
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
-$black:    #212529 !default;
-$white-light: #F1F1F1;
+$black: #212529 !default;
+$white-light: #f1f1f1;
 
 $primary: $white-light;
 $secondary: $black;
-$font: 'Raleway', sans-serif;
-
+$font: "Raleway", sans-serif;
 
 //IMPORT BOOTSTRAP 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

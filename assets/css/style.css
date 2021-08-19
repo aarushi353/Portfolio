@@ -10931,7 +10931,7 @@ section {
 section .connection {
   text-align: center;
   font-size: 2rem;
-  color: #273d7d;
+  color: #f1f1f1f1;
   z-index: -1;
 }
 section .connect {
@@ -10946,6 +10946,8 @@ section .connect a {
   position: relative;
   width: 60px;
   height: 60px;
+  background: #f1f1f1;
+  color: #242424;
   display: flex;
   justify-content: center;
   align-items: center;

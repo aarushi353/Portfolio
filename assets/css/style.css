@@ -11047,7 +11047,7 @@ footer {
   font-family: "Ubuntu", sans-serif;
   letter-spacing: 0.65px;
   font-size: 15px;
-  color: #555;
+  color: #f1f1f1f1;
   cursor: default;
   margin-top: 20px;
 }
@@ -11062,7 +11062,7 @@ footer {
 }
 .skill .resume a {
   text-decoration: none;
-  color: #555;
+  color: #f1f1f1f1;
   display: block;
   transition-duration: 0.3s;
 }
@@ -11071,7 +11071,7 @@ footer {
   padding: 0;
 }
 .skill .resume h3 {
-  color: #3d405b;
+  color: #f1f1f1f1;
   margin: 10px 0;
   text-transform: uppercase;
   font-size: 18px;

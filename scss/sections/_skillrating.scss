@@ -14,8 +14,10 @@
   font-size: 15px;
   color: #f1f1f1f1;
   cursor: default;
-  margin-top: 20px;
-
+ h1{
+  font-family: $font;
+  font-size: 4rem;
+ }
   .resume {
     width: 70%;
     background: $secondary;
@@ -187,68 +189,6 @@
               position: absolute;
               width: 10px;
               height: 10px;
-              border: 3px solid #3d405b;
-              background: #fcfcfc;
-              border-radius: 50%;
-              left: 0;
-              z-index: 1;
-            }
-            &::after {
-              content: "";
-              display: block;
-              position: absolute;
-              width: 3px;
-              height: 100%;
-              background: #3d405b;
-              left: 5px;
-              top: 0;
-            }
-            span {
-              transition-duration: 0.3s;
-            }
-          }
-        }
-      }
-      .edu {
-        float: left;
-        width: 70%;
-        small {
-          display: block;
-          opacity: 0.7;
-        }
-        ul {
-          li {
-            position: relative;
-            margin-left: 15px;
-            padding-left: 25px;
-            padding-bottom: 15px;
-            &:hover {
-              &::before {
-                animation: circle 1.2s infinite;
-              }
-              span {
-                color: #d63384;
-              }
-            }
-            &:first-of-type {
-              &::before {
-                width: 10px;
-                height: 10px;
-                left: -2px;
-              }
-            }
-            &:last-of-type {
-              padding-bottom: 3px;
-              &::after {
-                border-radius: 1.5px;
-              }
-            }
-            &::before {
-              content: "";
-              display: block;
-              position: absolute;
-              width: 7px;
-              height: 7px;
               border: 3px solid #3d405b;
               background: #fcfcfc;
               border-radius: 50%;

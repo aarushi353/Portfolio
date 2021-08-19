@@ -1,11 +1,14 @@
 @use '../custom' as *;
+
 section {
   background: $secondary;
   .connection {
     text-align: center;
     font-size: 2rem;
-    color: #f1f1f1f1;
+    color: $primary;
     z-index: -1;
+    font-family: $font;
+    padding-top: 7rem;
   }
 
   .connect {
@@ -20,8 +23,8 @@ section {
       position: relative;
       width: 60px;
       height: 60px;
-      background: #f1f1f1;
-      color: #242424;
+      background: $primary;
+      color: $secondary;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -51,7 +54,7 @@ section {
         background: #1da1f2;
       }
       &:nth-child(3)::before {
-        background: #f1f1f1f1;
+        background: $primary;
       }
       &:hover::before {
         transform: translateY(10px) scaleX(0.6) scaleY(0.8);
@@ -71,7 +74,7 @@ section {
       }
       &:hover:nth-child(3) {
         color: #242424;
-        text-shadow: 0 0 30px #f1f1f1f1;
+        text-shadow: 0 0 30px $primary;
       }
     }
   }
@@ -85,29 +88,5 @@ footer {
   justify-content: center;
   align-items: center;
   background: $secondary;
-  color: #242424;
-}
-.myButton {
-	box-shadow: inset 0px 1px 0px 0px #ffffff;
-	background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
-	background-color: #ffffff;
-	border-radius: 6px;
-	border: 1px solid #dcdcdc;
-	display: inline-block;
-	cursor: pointer;
-	color: #666666;
-	font-family: Arial;
-	font-size: 27px;
-	font-weight: bold;
-	padding: 6px 24px;
-	text-decoration: none;
-	text-shadow: 0px 1px 0px #ffffff;
-	&:hover {
-		background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
-		background-color: #f6f6f6;
-	}
-	&:active {
-		position: relative;
-		top: 1px;
-	}
+  color: $primary;
 }

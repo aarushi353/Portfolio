@@ -1,4 +1,6 @@
 @use '../custom' as *;
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 @keyframes circle {
   from {
     box-shadow: 0 0 0 0px #3d405b;
@@ -9,7 +11,7 @@
 }
 .skill {
   background: $secondary;
-  font-family: "Ubuntu", sans-serif;
+  font-family: $font;
   letter-spacing: 0.65px;
   font-size: 15px;
   color: #f1f1f1f1;
@@ -68,44 +70,6 @@
           padding-bottom: 0;
         }
       }
-      .profile {
-        background: #273d7d;
-        padding: 30px 15px 5px 15px;
-        margin: -30px -15px 45px -15px;
-        position: relative;
-        z-index: 2;
-        &::after {
-          content: "";
-          position: absolute;
-          background: #273d7d;
-          width: 100%;
-          height: 30px;
-          bottom: -15px;
-          left: 0;
-          transform: skewY(-5deg);
-          z-index: -1;
-          i {
-            display: inline-block;
-            font-size: 30px;
-            background: #273d7d;
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            line-height: 60px;
-            color: #fcfcfc;
-            margin: 0 10px 10px 10px;
-            transition-duration: 0.3s;
-            &::before {
-              transition-duration: 0.3s;
-            }
-          }
-          i.fa {
-            &::before {
-              display: block;
-            }
-          }
-        }
-      }
     }
     .func {
       box-sizing: border-box;
@@ -149,66 +113,6 @@
           vertical-align: middle;
           margin-right: 8px;
           transition-duration: 0.3s;
-        }
-      }
-      .work {
-        float: left;
-        small {
-          display: block;
-          opacity: 0.7;
-        }
-        ul {
-          li {
-            position: relative;
-            margin-left: 15px;
-            padding-left: 25px;
-            padding-bottom: 15px;
-            &:hover {
-              &::before {
-                animation: circle 1.2s infinite;
-              }
-              span {
-                color: #d63384;
-              }
-            }
-            &:first-of-type {
-              &::before {
-                width: 10px;
-                height: 10px;
-              }
-            }
-            &:last-of-type {
-              padding-bottom: 3px;
-              &::after {
-                border-radius: 1.5px;
-              }
-            }
-            &::before {
-              content: "";
-              display: block;
-              position: absolute;
-              width: 10px;
-              height: 10px;
-              border: 3px solid #3d405b;
-              background: #fcfcfc;
-              border-radius: 50%;
-              left: 0;
-              z-index: 1;
-            }
-            &::after {
-              content: "";
-              display: block;
-              position: absolute;
-              width: 3px;
-              height: 100%;
-              background: #3d405b;
-              left: 5px;
-              top: 0;
-            }
-            span {
-              transition-duration: 0.3s;
-            }
-          }
         }
       }
       .skills-prog {

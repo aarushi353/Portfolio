@@ -1,5 +1,6 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -10755,7 +10756,7 @@ section .connection {
   font-size: 2rem;
   color: #F1F1F1;
   z-index: -1;
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Raleway", sans-serif;
   padding-top: 7rem;
 }
 section .connect {
@@ -10845,14 +10846,14 @@ footer {
 }
 .skill {
   background: #212529;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 0.65px;
   font-size: 15px;
   color: #f1f1f1f1;
   cursor: default;
 }
 .skill h1 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Raleway", sans-serif;
   font-size: 4rem;
 }
 .skill .resume {
@@ -10907,42 +10908,6 @@ footer {
 .skill .resume .base > div:last-of-type {
   padding-bottom: 0;
 }
-.skill .resume .base .profile {
-  background: #273d7d;
-  padding: 30px 15px 5px 15px;
-  margin: -30px -15px 45px -15px;
-  position: relative;
-  z-index: 2;
-}
-.skill .resume .base .profile::after {
-  content: "";
-  position: absolute;
-  background: #273d7d;
-  width: 100%;
-  height: 30px;
-  bottom: -15px;
-  left: 0;
-  transform: skewY(-5deg);
-  z-index: -1;
-}
-.skill .resume .base .profile::after i {
-  display: inline-block;
-  font-size: 30px;
-  background: #273d7d;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  line-height: 60px;
-  color: #fcfcfc;
-  margin: 0 10px 10px 10px;
-  transition-duration: 0.3s;
-}
-.skill .resume .base .profile::after i::before {
-  transition-duration: 0.3s;
-}
-.skill .resume .base .profile::after i.fa::before {
-  display: block;
-}
 .skill .resume .func {
   box-sizing: border-box;
   float: left;
@@ -10982,60 +10947,6 @@ footer {
   text-align: center;
   vertical-align: middle;
   margin-right: 8px;
-  transition-duration: 0.3s;
-}
-.skill .resume .func .work {
-  float: left;
-}
-.skill .resume .func .work small {
-  display: block;
-  opacity: 0.7;
-}
-.skill .resume .func .work ul li {
-  position: relative;
-  margin-left: 15px;
-  padding-left: 25px;
-  padding-bottom: 15px;
-}
-.skill .resume .func .work ul li:hover::before {
-  animation: circle 1.2s infinite;
-}
-.skill .resume .func .work ul li:hover span {
-  color: #d63384;
-}
-.skill .resume .func .work ul li:first-of-type::before {
-  width: 10px;
-  height: 10px;
-}
-.skill .resume .func .work ul li:last-of-type {
-  padding-bottom: 3px;
-}
-.skill .resume .func .work ul li:last-of-type::after {
-  border-radius: 1.5px;
-}
-.skill .resume .func .work ul li::before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  border: 3px solid #3d405b;
-  background: #fcfcfc;
-  border-radius: 50%;
-  left: 0;
-  z-index: 1;
-}
-.skill .resume .func .work ul li::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 3px;
-  height: 100%;
-  background: #3d405b;
-  left: 5px;
-  top: 0;
-}
-.skill .resume .func .work ul li span {
   transition-duration: 0.3s;
 }
 .skill .resume .func .skills-prog {
@@ -11195,7 +11106,7 @@ a {
   margin-top: 10%;
 }
 .main h1 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Raleway", sans-serif;
   font-size: 4rem;
 }
 .main #projects {
@@ -11233,9 +11144,11 @@ a {
 }
 .main #projects .project-tile .main-info {
   font-size: 1.125em;
+  font-family: "Raleway", sans-serif;
 }
 .main #projects .project-tile .extra-info {
   display: none;
+  font-family: "Raleway", sans-serif;
 }
 .main #projects .project-tile:hover a {
   color: #212529;
@@ -11256,6 +11169,7 @@ a {
     height: 250px;
   }
   .main #projects .project-tile:hover .extra-info {
+    font-family: "Raleway", sans-serif;
     display: inline;
     font-style: italic;
     text-align: justify;

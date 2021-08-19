@@ -1,10 +1,11 @@
 @use '../custom' as *;
 section {
-  background: #f1f1f1f1;
+  background: $secondary;
   .connection {
     text-align: center;
     font-size: 2rem;
     color: $primary;
+    z-index: -1;
   }
 
   .connect {
@@ -20,7 +21,7 @@ section {
       width: 60px;
       height: 60px;
       // background: #f1f1f1;
-      color: #242424;
+      // color: #242424;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -50,7 +51,7 @@ section {
         background: #1da1f2;
       }
       &:nth-child(3)::before {
-        background: #242424;
+        background: #f1f1f1f1;
       }
       &:hover::before {
         transform: translateY(10px) scaleX(0.6) scaleY(0.8);
@@ -70,7 +71,7 @@ section {
       }
       &:hover:nth-child(3) {
         color: #242424;
-        text-shadow: 0 0 30px #242424;
+        text-shadow: 0 0 30px #f1f1f1f1;
       }
     }
   }

@@ -8,7 +8,7 @@
   }
 }
 .skill {
-  background: #eee;
+  background: $secondary;
   font-family: "Ubuntu", sans-serif;
   letter-spacing: 0.65px;
   font-size: 15px;
@@ -18,7 +18,7 @@
 
   .resume {
     width: 70%;
-    background: #fbfbfb;
+    background: $secondary;
     margin: 20px auto;
     border: 1px solid $primary;
     box-shadow: 0 0 20px -3px $primary;

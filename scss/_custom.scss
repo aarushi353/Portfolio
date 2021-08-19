@@ -22,10 +22,10 @@ $gray-600: #6c757d !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
-$black:    #000 !default;
+$black:    #212529 !default;
 $white-light: #F1F1F1;
 $primary: $purple;
-$secondary: $white-light;
+$secondary: $black;
 
 //IMPORT BOOTSTRAP 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

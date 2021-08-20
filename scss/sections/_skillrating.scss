@@ -9,6 +9,7 @@
   }
 }
 .skill {
+  margin-top: 10%;
   background: $secondary;
   font-family: $font;
   letter-spacing: 0.65px;
@@ -16,6 +17,7 @@
   color: $primary;
   cursor: default;
   h3 {
+
     font-family: $font;
     font-size: 2.5rem;
     margin-bottom: 3%;
@@ -271,7 +273,6 @@
   $breakpoint-tablet-5: 450px;
   h1 {
     font-size: 400%;
-    color: #273d7d;
     margin-top: 10%;
   }
   img {

@@ -11284,7 +11284,6 @@ a {
   .main #projects .project-tile:hover .extra-info {
     font-family: "Raleway", sans-serif;
     display: inline;
-    font-style: italic;
     text-align: justify;
     margin-right: 4%;
     margin-left: 4%;

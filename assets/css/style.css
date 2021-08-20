@@ -10747,88 +10747,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-:root {
-  --main-white: #F8F9FA;
-  --main-pink: #84fab0;
-}
-
-.name {
-  position: absolute;
-  left: 53%;
-  top: 30%;
-}
-
-.info {
-  position: absolute;
-  top: 30%;
-  right: 53%;
-  font-family: "Raleway";
-  color: white;
-  text-align: right;
-  font-size: 4vw;
-  font-weight: 100;
-  justify-content: end;
-}
-
-h1 {
-  color: white;
-  font-family: "Raleway";
-  font-size: 5.4vw;
-  font-weight: 800;
-  justify-content: start;
-}
-
-h1 .h1color {
-  color: #84fab0;
-  font-family: "Stencil";
-}
-
-.vertical-line {
-  position: absolute;
-  background-color: var(--main-pink);
-  width: 2px;
-  left: 50%;
-  height: 60%;
-  top: 20%;
-}
-
-.info .h2color {
-  color: var(--main-pink);
-}
-
-#welcome-section {
-  display: grid;
-  max-width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-color: #212529;
-}
-
-@media (max-width: 481px) {
-  .info {
-    font-size: 1.4vw;
-  }
-
-  h1 {
-    font-size: 1.8vw;
-  }
-}
-@media screen and (max-width: 769px) {
-  #welcome-section {
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-  .info {
-    font-size: 8vw;
-    max-height: 80%;
-  }
-
-  h1 {
-    font-size: 11vw;
-    max-height: 80%;
-  }
-}
 section {
   background: #212529;
 }
@@ -10916,18 +10834,6 @@ section .connect a:hover:nth-child(3) {
   text-shadow: 0 0 30px #f1f1f1;
 }
 
-footer {
-  margin: 0;
-  margin-bottom: 0;
-  padding-bottom: 20px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #212529;
-  color: #f1f1f1;
-}
-
 @keyframes circle {
   from {
     box-shadow: 0 0 0 0px #3d405b;
@@ -10941,7 +10847,7 @@ footer {
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.65px;
   font-size: 15px;
-  color: #f1f1f1f1;
+  color: #f1f1f1;
   cursor: default;
 }
 .skill h3 {
@@ -10970,7 +10876,7 @@ footer {
 }
 .skill .resume a {
   text-decoration: none;
-  color: #f1f1f1f1;
+  color: #f1f1f1;
   display: block;
   transition-duration: 0.3s;
 }
@@ -10979,7 +10885,7 @@ footer {
   padding: 0;
 }
 .skill .resume h3 {
-  color: #f1f1f1f1;
+  color: #f1f1f1;
   margin: 10px 0;
   text-transform: uppercase;
   font-size: 18px;
@@ -11040,7 +10946,7 @@ footer {
   margin-top: 0;
 }
 .skill .resume .func h3 i {
-  color: #fcfcfc;
+  color: #f1f1f1;
   background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   width: 42px;
   height: 42px;
@@ -11268,15 +11174,11 @@ a {
 }
 .main #projects p {
   text-align: center;
-  font-size: var(--text-size);
 }
 .main #projects p a {
   margin: 0 0.5em;
 }
 @media screen and (min-width: 769px) {
-  .main #projects #projects {
-    width: var(--large-screen-width);
-  }
   .main #projects .project-tile {
     flex-basis: 250px;
     height: 250px;

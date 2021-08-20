@@ -66,7 +66,6 @@ a {
 
       .extra-info {
         display: none;
-        
       }
 
       &:hover a {
@@ -75,7 +74,6 @@ a {
     }
     p {
       text-align: center;
-      font-size: var(--text-size);
     }
 
     p a {
@@ -83,10 +81,6 @@ a {
     }
 
     @media screen and (min-width: 769px) {
-      #projects {
-        width: var(--large-screen-width);
-      }
-
       .project-tile {
         flex-basis: 250px;
         height: 250px;

@@ -31,7 +31,9 @@
         background-size: 100% 88%;
       }
     }
+
   }
+
   .resume {
     width: 70%;
     background: $secondary;
@@ -55,6 +57,7 @@
       margin: 10px 0;
       text-transform: uppercase;
       font-size: 18px;
+     
     }
     &::before {
       content: "";

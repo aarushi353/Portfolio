@@ -10757,6 +10757,7 @@ section .connection {
   z-index: -1;
   font-family: "Raleway", sans-serif;
   padding-top: 7rem;
+  margin-bottom: 1%;
 }
 section .connection .underline--magical {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
@@ -10864,6 +10865,7 @@ footer {
 .skill h3 {
   font-family: "Raleway", sans-serif;
   font-size: 2.5rem;
+  margin-bottom: 3%;
 }
 .skill h3 .underline--magical {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
@@ -11127,6 +11129,7 @@ a {
 .main h3 {
   font-family: "Raleway", sans-serif;
   font-size: 2.5rem;
+  margin-bottom: 3%;
 }
 .main h3 .underline--magical {
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
@@ -11177,7 +11180,6 @@ a {
 }
 .main #projects .project-tile .extra-info {
   display: none;
-  font-family: "Raleway", sans-serif;
 }
 .main #projects .project-tile:hover a {
   color: #212529;

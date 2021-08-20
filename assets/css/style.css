@@ -10750,19 +10750,12 @@ textarea.form-control-lg {
 :root {
   --main-white: #F8F9FA;
   --main-pink: #84fab0;
-  --main-gray: #151618;
 }
 
 .name {
   position: absolute;
   left: 53%;
   top: 30%;
-}
-
-.info {
-  position: absolute;
-  top: 30%;
-  right: 53%;
 }
 
 .info {
@@ -10805,27 +10798,12 @@ h1 .h1color {
 
 #welcome-section {
   display: grid;
-  grid-template-columns: 50fr 50fr;
   max-width: 100%;
   height: 100vh;
   background-size: cover;
-  /* background-color: #212529; */
-  display: block;
-  vertical-align: bottom;
-}
-
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
   background-color: #212529;
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
-/* ---- stats.js ---- */
 @media (max-width: 481px) {
   .info {
     font-size: 1.4vw;
@@ -10841,10 +10819,6 @@ h1 .h1color {
     max-height: 100%;
   }
 
-  button {
-    font-size: 1em;
-  }
-
   .info {
     font-size: 8vw;
     max-height: 80%;
@@ -10853,11 +10827,6 @@ h1 .h1color {
   h1 {
     font-size: 11vw;
     max-height: 80%;
-  }
-
-  button {
-    padding: 0.3rem 0.6rem;
-    font-size: 0.7em;
   }
 }
 section {

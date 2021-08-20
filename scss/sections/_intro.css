@@ -7,19 +7,14 @@
     position: absolute;
     left: 53%;
     top: 30%;
+    
   }
   
   .info {
     position: absolute;
     top: 30%;
     right: 53%;
-  }
-  
-  .info {
-    position: absolute;
-    top: 30%;
-    right: 53%;
-      font-family: 'Raleway';
+    font-family: 'Raleway';
     color: white;
     text-align: right;
     font-size: 4vw;
@@ -56,7 +51,6 @@
   
   #welcome-section { 
     display: grid;
-    grid-template-columns: 50fr 50fr; 
     max-width: 100%;
     height: 100vh;
     background-size: cover;
@@ -64,10 +58,6 @@
 
   }
 
-  
-  @media (max-width: 320px) {
-    
-  }
   
   @media (max-width: 481px) {
   

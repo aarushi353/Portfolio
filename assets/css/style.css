@@ -11747,7 +11747,7 @@ a {
   }
 
   .timeline-body .timeline li .direction-r .flag-wrapper .flag, .timeline-body .timeline li .direction-l .flag-wrapper .flag {
-    background-color: #fff;
+    background-color: rgba(125, 185, 232, 1);
     z-index: 15;
   }
 
@@ -11761,7 +11761,7 @@ a {
     width: 12px;
     height: 12px;
     margin-left: -9px;
-    background: #fff;
+    background: rgba(125, 185, 232, 1);
     border-radius: 10px;
     border: 4px solid rgb(255, 80, 80);
     z-index: 10;
@@ -11777,7 +11777,7 @@ a {
     width: 0;
     margin-left: -8px;
     border: solid transparent;
-    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-color: rgba(125, 185, 232, 1);
     border-width: 8px;
     pointer-events: none;
   }
@@ -11787,7 +11787,7 @@ a {
     position: relative;
     margin: 1em 0 0 0;
     padding: 1em;
-    background: #fff;
+    background: rgba(125, 185, 232, 1);
     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);

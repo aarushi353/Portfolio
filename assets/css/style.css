@@ -11088,6 +11088,7 @@ section {
   background: #212529;
 }
 section .connection {
+  position: absolute; 
   text-align: center;
   font-size: 2.5rem;
   color: #f1f1f1;
@@ -11812,5 +11813,104 @@ a {
   .timeline-body .timeline li .direction-l .desc,
   .timeline-body .timeline li .direction-r .desc {
     margin: 1em 4em 0 4em;
+  }
+}
+
+.main-pro {
+  -webkit-font-smoothing: antialiased;
+  padding: 50px 30px;
+  margin: 0;
+  font-family: Camphor, Open Sans, Segoe UI, sans-serif;
+  color: #1c00fd;
+  background-color: #212529;
+  place-content: center;
+}
+
+.container-lg {
+  max-width: 1040px;
+  width: 100%;
+}
+
+.container-lg h1 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  z-index: 40000;
+  pointer-events: auto;
+  margin-bottom: 30px;
+}
+
+.grid-item {
+  background: #FFFFFF;
+  box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.03), 0 13px 27px -5px rgba(50, 50, 93, 0.25);
+  border-radius: 6px;
+  width: 70%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  text-decoration: none;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+@media screen and (max-width: 750px){
+  .grid-item{
+    width: 100%;
+  }
+}
+.grid-item:hover {
+  transform: translatey(-2px) scale(1.02);
+}
+.grid-item:visited {
+  color: inherit;
+}
+.grid-item .project-info {
+  height: 100%;
+  flex-direction: column;
+  padding: 10px 20px;
+  color: #65728F;
+  flex-grow: 1;
+}
+.grid-item .project-info span {
+  display: inline-block;
+  width: 100%;
+}
+.grid-item .project-info .title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  flex-grow: 1;
+}
+.grid-item .project-info .type {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.grid-item .project-info .category-tags {
+  display: flex;
+  justify-self: flex-end;
+}
+.grid-item .project-info .category {
+  padding: 8px 14px;
+  border-radius: 20px;
+  background: #D6DFFE;
+  color: #6772E5;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+  width: fit-content;
+}
+
+.grid-picture {
+  height: 350px;
+  margin-bottom: 8px;
+  
+}
+.category-tags{
+  display:flex;
+  justify-content:center;
+}
+@media screen and (max-width: 518px){
+  .category-tags{
+    display: none !important;
   }
 }

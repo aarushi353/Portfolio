@@ -11088,7 +11088,6 @@ section {
   background: #212529;
 }
 section .connection {
-  margin-top: 150%;
   position: absolute; 
   text-align: center;
   font-size: 2.5rem;
@@ -11853,6 +11852,11 @@ a {
   overflow: hidden;
   transition: all 0.2s ease-in-out;
 }
+@media screen and (max-width: 750px){
+  .grid-item{
+    width: 100%;
+  }
+}
 .grid-item:hover {
   transform: translatey(-2px) scale(1.02);
 }
@@ -11900,4 +11904,13 @@ a {
   height: 350px;
   margin-bottom: 8px;
   
+}
+.category-tags{
+  display:flex;
+  justify-content:center;
+}
+@media screen and (max-width: 518px){
+  .category-tags{
+    display: none !important;
+  }
 }

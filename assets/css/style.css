@@ -11814,3 +11814,119 @@ a {
     margin: 1em 4em 0 4em;
   }
 }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.main-pro {
+  -webkit-font-smoothing: antialiased;
+  padding: 50px 30px;
+  margin: 0;
+  font-family: Camphor, Open Sans, Segoe UI, sans-serif;
+  color: #1c00fd;
+  background-color: #212529;
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+}
+
+.container-lg {
+  max-width: 1040px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  background: transparent;
+}
+
+h1 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  z-index: 40000;
+  pointer-events: auto;
+  margin-bottom: 30px;
+}
+
+.items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-gap: 30px;
+}
+
+.grid-item {
+  background: #FFFFFF;
+  box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.03), 0 13px 27px -5px rgba(50, 50, 93, 0.25);
+  border-radius: 6px;
+  width: 300px;
+  min-height: 370px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  text-decoration: none;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+.grid-item:hover {
+  transform: translatey(-2px) scale(1.02);
+}
+.grid-item:visited {
+  color: inherit;
+}
+.grid-item .project-info {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  flex-direction: column;
+  padding: 10px 20px;
+  color: #65728F;
+  flex-grow: 1;
+}
+.grid-item .project-info span {
+  display: inline-block;
+  width: 100%;
+}
+.grid-item .project-info .title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  flex-grow: 1;
+}
+.grid-item .project-info .type {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.grid-item .project-info .category-tags {
+  display: flex;
+  justify-self: flex-end;
+}
+.grid-item .project-info .category {
+  padding: 8px 14px;
+  border-radius: 20px;
+  background: #D6DFFE;
+  color: #6772E5;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: fit-content;
+}
+.grid-item .logo {
+  position: absolute;
+  background: red;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  top: 5px;
+  right: 5px;
+}
+
+.grid-picture {
+  height: 200px;
+  margin-bottom: 8px;
+  object-fit: cover;
+}

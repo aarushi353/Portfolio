@@ -11845,7 +11845,6 @@ a {
   box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.03), 0 13px 27px -5px rgba(50, 50, 93, 0.25);
   border-radius: 6px;
   width: 70%;
-  min-height: 370px;
   display: flex;
   position: relative;
   flex-direction: column;

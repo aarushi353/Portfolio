@@ -11815,10 +11815,7 @@ a {
   }
 }
 
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
+
 
 .main-pro {
   -webkit-font-smoothing: antialiased;
@@ -11842,7 +11839,7 @@ a {
   background: transparent;
 }
 
-h1 {
+.container-lg h1 {
   font-weight: 700;
   margin: 0;
   padding: 0;
@@ -11929,4 +11926,11 @@ h1 {
   height: 200px;
   margin-bottom: 8px;
   object-fit: cover;
+}
+
+@media screen and (max-width: 650px){
+  .main-pro{
+    display: flex;
+    justify-content: center;
+  }
 }

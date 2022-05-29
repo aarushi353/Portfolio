@@ -11787,12 +11787,14 @@ a {
     position: relative;
     margin: 1em 0 0 0;
     padding: 1em;
-    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background: #212529;
     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
-    border-radius: 2%;
-
+    border-radius: 1%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #84fab0;
     z-index: 15;
   }
 
